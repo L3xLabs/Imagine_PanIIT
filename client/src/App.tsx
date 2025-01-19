@@ -1,11 +1,10 @@
-import "./App.css";
-import { Chat } from "./components/Chat";
+import Ambit from "./components/Ambit";
 
 function App() {
   return (
     <>
       <div>
-        <Chat />
+        <Ambit />
       </div>
     </>
   );

@@ -103,7 +103,6 @@ export const Chat: React.FC = () => {
       }
 
       const chatMessage = {
-        sender: username,
         content: message,
         timestamp: Date.now(),
       };
@@ -146,7 +145,6 @@ export const Chat: React.FC = () => {
                       : "bg-gray-100"
                   }`}
                 >
-                  <div className="font-bold text-sm">{msg.sender}</div>
                   <div className="break-words">{msg.content}</div>
                   <div className="text-xs opacity-75">
                     {new Date(msg.timestamp).toLocaleTimeString()}
